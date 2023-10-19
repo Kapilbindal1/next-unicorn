@@ -10,15 +10,15 @@ const ContactForm = () => {
     lName: "",
     email: "",
     phone: "",
-    industry: "",
-    description: "",
+    // industry: "",
+    // description: "",
   };
 
   const [contactDetails, setContactDetails] = useState(initialContactDetails);
   const [contactError, setContactError] = useState([]);
 
   const validation = () =>{
-    const { fName, lName, email, phone, industry, description } =
+    const { fName, lName, email, phone } =
     contactDetails;
     console.log('key, valuekey, valuekey, value');
     let error = []
