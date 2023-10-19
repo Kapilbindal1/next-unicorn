@@ -1,0 +1,33 @@
+
+.header {
+  padding: 15px 0px;
+  .navbar-nav {
+    margin: 0 auto;
+    @media (max-width: 768px) {
+      padding: 0px 0px 15px 0px;
+    }
+    .nav-item {
+      margin: 0px 16px;
+      .nav-link {
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #0F2137;
+        font-size: 16px;
+      }
+    }
+  }
+  #navbarMobile {
+    @media (max-width: 768px) {
+      position: absolute;
+      top: 80px;
+      left: 0;
+      background-color: #fff;
+      width: 100%;
+      z-index: 9999;
+      padding: 0px 0px 20px 0px;
+    }
+  }
+  .navbar-toggler:focus {
+    box-shadow: unset;
+  }
+}
