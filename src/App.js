@@ -4,7 +4,7 @@ import Header from './layout/Header';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./assets/styles/main.scss";
 import Home from './pages/home';
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 function App() {

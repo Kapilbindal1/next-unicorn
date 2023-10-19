@@ -1,6 +1,6 @@
 export const validationRegex = {
   phone: /^\d{10}$/,
-  email: /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
+  email: /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/,
 };
 
 export const messageBody = (

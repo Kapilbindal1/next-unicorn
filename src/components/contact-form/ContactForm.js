@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Mailer from "./Mailer";
 import { messageBody, validationRegex } from "./config"
 import { toast } from 'react-toastify';

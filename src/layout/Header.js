@@ -8,7 +8,6 @@ import {
   Nav,
   NavItem,
   NavLink,
-  NavbarText,
 } from 'reactstrap';
 import logo from "../assets/images/common/logo.png";
 import { NAV_BAR } from './data';
