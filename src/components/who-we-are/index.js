@@ -4,6 +4,8 @@ import img1 from "../../assets/images/home/one-min.jpeg";
 import img2 from "../../assets/images/home/two-min.jpeg";
 import img3 from "../../assets/images/home/three-min.jpeg";
 import img4 from "../../assets/images/home/four-min.jpeg";
+import { useState } from 'react';
+import CollapseText from '../common/CollapseText';
 
 const personArr = [
   {
@@ -24,11 +26,13 @@ const personArr = [
   {
     img: img4,
     name: 'Chavi Jindal',
-    desc: 'With 11+ years in web, app, and software realms, Chavi is the Founder & CEO of Innow8 Apps. He\'s curated a dynamic team of experts, dedicated to shaping the future today, propelling innovation at every step.'
+    desc: 'Chavi, with over 11 years of experience in web, app, and software development, is the visionary Founder & CEO of Innow8 Apps. He has assembled a dynamic team of experts dedicated to pushing the boundaries of technology and driving innovation. Under Chavi\'s leadership, Innow8 Apps consistently delivers cutting-edge solutions, redefining possibilities in the digital realm.'
   },
 ]
 
+
 const WhoWeAre = () => {
+
   return (
     <section className='who-we-are' id='who-we-are'>
       <Container>
@@ -39,7 +43,18 @@ const WhoWeAre = () => {
               <Col md={6} lg={3}>
                 <img src={item.img} className='profile' alt={item.name} />
                 <h3 className='name'>{item.name}</h3>
-                <p className='desc'>{item.desc}</p>
+                <CollapseText desc={item.desc}/>
+                {/* {isExpanded ? item.desc : item.desc.slice(0, 100)} */}
+                {/* {item.desc.length > 100 && (
+                  <span>
+                    {isExpanded ? (
+                      <button onClick={toggleExpand}>Read Less</button>
+                    ) : (
+                      <button onClick={toggleExpand}>Read More</button>
+                    )}
+                  </span>
+                )} */}
+                {/* <p className='desc'>{item.desc}</p> */}
               </Col>
             )
           })}

@@ -9,7 +9,7 @@ import {
   NavItem,
   NavLink,
 } from 'reactstrap';
-import logo from "../assets/images/common/logo.png";
+import logo from "../assets/images/common/logo.svg";
 import { NAV_BAR } from './data';
 
 const Header = () => {
@@ -20,7 +20,7 @@ const Header = () => {
     <header className='header'>
       <Container>
       <Navbar expand="md">
-        <NavbarBrand href="/"><img src={logo} alt="logo" /></NavbarBrand>
+        <NavbarBrand href="/"><img src={logo} className='logo' alt="logo" /></NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar id='navbarMobile'>
           <Nav className="me-auto" navbar>

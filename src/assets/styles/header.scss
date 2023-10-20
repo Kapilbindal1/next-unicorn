@@ -1,6 +1,12 @@
 
 .header {
   padding: 15px 0px;
+  .logo {
+    width: 186px;
+    @media (min-width: 769px) and (max-width: 992px) {
+      width: 118px;
+    }
+  }
   .navbar-nav {
     margin: 0 auto;
     @media (max-width: 768px) {

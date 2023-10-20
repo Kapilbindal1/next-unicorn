@@ -199,6 +199,12 @@
     @media (max-width: 768px) {
       margin-bottom: 3rem;
     }
+    .read-more {
+      background: transparent;
+      border: none;
+      color: $primary-color;
+      font-weight: 600;
+    }
   }
 }
 .tech-stacks {
