@@ -18,8 +18,7 @@ const ContactForm = () => {
   const [contactError, setContactError] = useState([]);
 
   const validation = () =>{
-    const { fName, lName, email, phone } =
-    contactDetails;
+    const { fName, lName, email, phone } = contactDetails;
     console.log('key, valuekey, valuekey, value');
     let error = []
     if(fName === ''){
@@ -56,8 +55,7 @@ const ContactForm = () => {
   
     const handleContactFormSend = async (e) => {
       e.preventDefault();
-      const { fName, lName, email, phone, industry, description } =
-      contactDetails;
+      const { fName, lName, email, phone, industry, description } = contactDetails;
       if(Object.keys(validation()).length === 0){
       const result = await Mailer(messageBody(fName, lName, email, phone, industry, description));
       if(result === 200){

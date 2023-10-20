@@ -8,12 +8,28 @@
     }
     .nav-item {
       margin: 0px 16px;
+      @media (min-width: 769px) and (max-width: 992px) {
+        margin: 0px 12px;
+      }
       .nav-link {
         text-transform: capitalize;
         font-weight: 500;
         color: #0F2137;
         font-size: 16px;
+        @media (min-width: 769px) and (max-width: 992px) {
+          font-size: 13px;
+          padding: 0;
+        }
       }
+    }
+  }
+  .primary-btn {
+    @media (min-width: 769px) and (max-width: 992px) {
+      padding: 9px 16px;
+      font-size: 12px;
+    }
+    @media (max-width: 768px) {
+      margin-left: 19px;
     }
   }
   #navbarMobile {

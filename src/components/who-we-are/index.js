@@ -1,8 +1,9 @@
 
 import { Col, Container, Row } from 'reactstrap';
-import img1 from "../../assets/images/home/abhi.png";
-import img2 from "../../assets/images/home/gowrish.png";
-import img3 from "../../assets/images/home/gagan.png";
+import img1 from "../../assets/images/home/one-min.jpeg";
+import img2 from "../../assets/images/home/two-min.jpeg";
+import img3 from "../../assets/images/home/three-min.jpeg";
+import img4 from "../../assets/images/home/four-min.jpeg";
 
 const personArr = [
   {
@@ -21,7 +22,7 @@ const personArr = [
     desc: 'IT professional with 20+ years of industry experience encompassing IT infrastructure support, management, Agile, middleware, and DevOps, with a strong track record in client-facing and managerial roles, a wide range of technical skills including IBM Tivoli, MQ, WebLogic, Connect Direct, TIBCO EMS, and DB management, as well as a successful entrepreneurial background in co-founding and running tech startups in India and the UK and a commitment to philanthropy through founding the Help Thalassemics Trust in India.'
   },
   {
-    img: img3,
+    img: img4,
     name: 'Chavi Jindal',
     desc: 'With 11+ years in web, app, and software realms, Chavi is the Founder & CEO of Innow8 Apps. He\'s curated a dynamic team of experts, dedicated to shaping the future today, propelling innovation at every step.'
   },
