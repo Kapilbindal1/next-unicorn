@@ -2,7 +2,7 @@
 import phone from "../assets/images/common/phone.png";
 import email from "../assets/images/common/email.png";
 import address from "../assets/images/common/address.png";
-import logo from "../assets/images/common/logo-white.svg";
+import logo from "../assets/images/common/logo-white.png";
 
 const contactDetails = [
   {

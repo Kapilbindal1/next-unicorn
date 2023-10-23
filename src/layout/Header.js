@@ -9,7 +9,7 @@ import {
   NavItem,
   NavLink,
 } from 'reactstrap';
-import logo from "../assets/images/common/logo.svg";
+import logo from "../assets/images/common/logo.png";
 import { NAV_BAR } from './data';
 
 const Header = () => {
