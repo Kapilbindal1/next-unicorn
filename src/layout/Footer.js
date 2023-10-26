@@ -8,11 +8,11 @@ const contactDetails = [
   {
     id: 1,
     country: "UK",
-    phone: "+44 781 888 0974",
-    phoneLink: "+447818880974",
-    email: "bbhatia@innow8apps.com",
-    emailLink: "bbhatia@innow8apps.com",
-    address: "12 leam close, Colchester, CO4 3TE, UK",
+    phone: "+44 758 841 8605",
+    phoneLink: "+447588418605",
+    email: "info@nextuicorn.uk",
+    emailLink: "info@nextuicorn.uk",
+    address: "Next Unicorn Ltd 11 Rydons Lane, Coulsdon CR5 1SU , Surrey UK",
   },
   {
     id: 1,
