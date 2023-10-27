@@ -3,7 +3,7 @@ import { Col, Container, Row } from 'reactstrap';
 import img1 from "../../assets/images/home/abhi.webp";
 import img2 from "../../assets/images/home/gow.webp";
 import img3 from "../../assets/images/home/gagan.webp";
-import img4 from "../../assets/images/home/chavi.webp";
+import img4 from "../../assets/images/home/chavi.png";
 import CollapseText from '../common/CollapseText';
 
 const personArr = [
