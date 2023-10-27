@@ -1,9 +1,9 @@
 
 import { Col, Container, Row } from 'reactstrap';
-import img1 from "../../assets/images/home/one-min.jpeg";
-import img2 from "../../assets/images/home/two-min.jpeg";
-import img3 from "../../assets/images/home/three-min.jpeg";
-import img4 from "../../assets/images/home/four-min.jpeg";
+import img1 from "../../assets/images/home/abhi.webp";
+import img2 from "../../assets/images/home/gow.webp";
+import img3 from "../../assets/images/home/gagan.webp";
+import img4 from "../../assets/images/home/chavi.webp";
 import CollapseText from '../common/CollapseText';
 
 const personArr = [
