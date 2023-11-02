@@ -1,8 +1,8 @@
 
 import { Col, Container, Row } from 'reactstrap';
-import img1 from "../../assets/images/home/abhi.webp";
-import img2 from "../../assets/images/home/gow.webp";
-import img3 from "../../assets/images/home/gagan.webp";
+import img1 from "../../assets/images/home/abhi1.webp";
+import img2 from "../../assets/images/home/gowri1.webp";
+import img3 from "../../assets/images/home/gagan1.webp";
 import img4 from "../../assets/images/home/chavi.png";
 import CollapseText from '../common/CollapseText';
 
@@ -40,7 +40,7 @@ const WhoWeAre = () => {
           {personArr.map((item) => {
             return (
               <Col md={6} lg={3}>
-                <img src={item.img} className='profile' alt={item.name} />
+                <img src={item.img} className='profile img-fluid' alt={item.name} />
                 <h3 className='name'>{item.name}</h3>
                 <CollapseText desc={item.desc}/>
                 {/* {isExpanded ? item.desc : item.desc.slice(0, 100)} */}
