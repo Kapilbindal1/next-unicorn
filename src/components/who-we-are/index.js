@@ -2,7 +2,7 @@
 import { Col, Container, Row } from 'reactstrap';
 import img1 from "../../assets/images/home/abhi1.webp";
 import img2 from "../../assets/images/home/gowri1.webp";
-import img3 from "../../assets/images/home/gagan1.webp";
+import img3 from "../../assets/images/home/gagan2.webp";
 import img4 from "../../assets/images/home/chavi.png";
 import CollapseText from '../common/CollapseText';
 
