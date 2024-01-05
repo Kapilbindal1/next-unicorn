@@ -23,6 +23,6 @@ export const NAV_BAR = [
   {
     id: 5,
     label: 'tech stack',
-    url: '#tech-stacks'
+    url: '#tech-stack'
   },
 ]

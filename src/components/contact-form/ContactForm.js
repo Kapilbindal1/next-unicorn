@@ -39,7 +39,7 @@ const ContactForm = () => {
         error['phone'] = 'Please enter 10 digits phone number'
       }
     }else{
-      error['phone'] = 'Please enter phone'
+      error['phone'] = 'Please enter phone number'
     }
       return error
     }

@@ -12,21 +12,21 @@ const contactDetails = [
     phoneLink: "+447588418605",
     email: "info@nextuicorn.uk",
     emailLink: "info@nextuicorn.uk",
-    address: "Next Unicorn Ltd 11 Rydons Lane, Coulsdon CR5 1SU , Surrey UK",
+    address: "11 Rydons Lane, Coulsdon, CR5 1SU, UK",
   },
   {
-    id: 1,
+    id: 2,
     country: "India",
-    phone: "+91 9888886602",
-    phone2: "+919915376280",
+    phone: "+91 988 888 6602",
+    phone2: "+91 991 537 6280",
     phoneLink: "+919888886602",
     email: "contact@innow8apps.com",
     emailLink: "bbhatia@innow8apps.com",
     address:
-      "910B Bestech Business Tower Sector 66 ,Mohali , Punjab India, 160055",
+      "910B, Bestech Business Tower Sector 66, Mohali, Punjab India, 160066",
   },
   {
-    id: 1,
+    id: 3,
     country: "Canada",
     phone: "+1 (604) 374-5278",
     phoneLink: "+16043745278",
@@ -46,6 +46,7 @@ const Footer = () => {
             <img src={logo} className="img-fluid logo" alt="" />
           </div>
           {contactDetails.map((item) => {
+            console.log(item,'item')
             return (
               <div className="col-md-6 col-lg-3" key={item.id}>
                 <h4 className="country">{item.country}</h4>
@@ -58,8 +59,7 @@ const Footer = () => {
                       height={24}
                       alt="phone"
                     />
-                    <a href={`tel:${item.phoneLink}`}>{item.phone}</a>
-                    {","}
+                    <a href={`tel:${item.phoneLink}`}>{item.phone}{item.id === 2 ? ", " : ""}</a>
                     <a href={`tel:${item.phone2}`} className="ml-4">
                       {item.phone2}
                     </a>

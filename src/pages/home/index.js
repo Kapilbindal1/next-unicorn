@@ -17,11 +17,11 @@ const Home = () => {
     <>
       <Banner />
       <Expertise />
+      <TechStacks />
       <Lifecycle />
       <SafeHands />
       <WhoWeAre />
-      <TechStacks />
-      <OurStory />
+      {/* <OurStory /> */}
       <Services />
       <section className="contact-form" id="contact-us">
         <div className="container">
