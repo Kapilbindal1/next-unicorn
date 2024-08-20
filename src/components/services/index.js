@@ -6,6 +6,8 @@ import service3 from "../../assets/images/home/blockchain.png";
 import service4 from "../../assets/images/home/qa.png";
 import service5 from "../../assets/images/home/game-dev.png";
 import service6 from "../../assets/images/home/ui-ux.png";
+import service7 from "../../assets/images/home/integration.png";
+import service8 from "../../assets/images/home/support.png";
 
 const services = [
   {
@@ -17,6 +19,16 @@ const services = [
     img: service2,
     title: 'Web App Development',
     info: 'Your web app partner for cutting-edge tech and user-centric design, driving digital transformation.'
+  },
+  {
+    img: service7,
+    title: 'Integration Services',
+    info: 'Seamless integration solutions for optimized workflows, connecting your systems effortlessly for enhanced efficiency and productivity'
+  },
+  {
+    img: service8,
+    title: 'Software development and Support',
+    info: 'Comprehensive software development and support services, ensuring robust solutions and continuous assistance for your evolving needs.'
   },
   {
     img: service3,

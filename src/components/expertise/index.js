@@ -3,7 +3,7 @@ import { Container } from 'reactstrap';
 import img1 from "../../assets/images/expertise/tibc.png";
 import img2 from "../../assets/images/expertise/aws.png";
 import img3 from "../../assets/images/expertise/open.png";
-import img4 from "../../assets/images/expertise/azure-logic.png";
+import img4 from "../../assets/images/expertise/azure.png";
 import img5 from "../../assets/images/expertise/ibm-tivoli.png";
 import img6 from "../../assets/images/expertise/cvent.png";
 import img7 from "../../assets/images/expertise/pm-institute.png";
@@ -90,30 +90,11 @@ const Expertise = () => {
         {expertiseLogo.map((item, index) => {
             return (
               <div className='expertise-logo__box'>
-                <img src={item.img} className={`img-fluid ${index === 1 ? 'img1' : index === 8 ? 'img2' : ''}`} alt="expertise" />
+                <img src={item.img} className={`img-fluid ${index === 1 ? 'img1' : index === 3 ? "img3" : index === 8 ? 'img2' : ''}`} alt="expertise" />
               </div>
             )
           })}
-          {/* <div>
-            <h3>1</h3>
-          </div>
-          <div>
-            <h3>2</h3>
-          </div>
-          <div>
-            <h3>3</h3>
-          </div>
-          <div>
-            <h3>4</h3>
-          </div>
-          <div>
-            <h3>5</h3>
-          </div>
-          <div>
-            <h3>6</h3>
-          </div> */}
         </Slider>
-        
       </Container>
       {/* <Container>
         <h2 className='main-title text-center'>Our Expertise</h2>

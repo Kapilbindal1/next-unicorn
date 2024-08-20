@@ -13,7 +13,8 @@ const safeCards = [
     lineImg: icon1,
     icon: expIcon,
     heading: 'Experience',
-    info: 'Managed by seasoned professionals with a combined 50+ years of experience.'
+    info: 'Managed by seasoned professionals with 15+ years of experience and delivery to hundreds of clients.'
+    // info: 'Managed by seasoned professionals with a combined 50+ years of experience.'
   },
   {
     lineImg: icon2,

@@ -1,6 +1,6 @@
 
 import { Container } from 'reactstrap';
-import techImg from "../../assets/images/home/texh-stack2.png";
+import techImg from "../../assets/images/home/tech-stacks.png";
 
 const TechStacks = () => {
   return (

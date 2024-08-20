@@ -95,6 +95,11 @@
           height: 110px;
           margin-top: 14px;
         }
+        &.img3 {
+          width: 100px;
+          height: 100px;
+          margin-top: 14px;
+        }
         @media (max-width: 1400px) {
           max-width: 88%;
         }
@@ -330,6 +335,12 @@
           background: #48A7FF;
         }
         &.box-5 {
+          background: #1ecd1e;
+        }
+        &.box-6 {
+          background: #d8c70b;
+        }
+        &.box-7 {
           background: #F5497C;
         }
       }
@@ -444,6 +455,7 @@
 }
 .contact-form {
   background-color: #fff;
+  padding: 0px 0px 80px 0px;
   &__main {
     background-color: #f6f6f6;
     border-radius: 8px;

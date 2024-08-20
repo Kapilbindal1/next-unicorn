@@ -20,7 +20,7 @@ const Home = () => {
       <TechStacks />
       <Lifecycle />
       <SafeHands />
-      <WhoWeAre />
+      {/* <WhoWeAre /> */}
       {/* <OurStory /> */}
       <Services />
       <section className="contact-form" id="contact-us">
